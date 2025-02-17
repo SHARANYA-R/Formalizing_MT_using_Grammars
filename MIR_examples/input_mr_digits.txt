@@ -1,0 +1,3 @@
+<digits d> + <digits d> + <digits d1>
+->
+<digits d>

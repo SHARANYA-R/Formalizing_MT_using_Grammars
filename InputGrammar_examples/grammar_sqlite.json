@@ -1,0 +1,19 @@
+{
+    "<start>": ["<sql_stmt>"],
+    "<sql_stmt>": [
+      "SELECT <columns> FROM <table>",
+      "INSERT INTO <table> (<columns>) VALUES (<values>)",
+      "UPDATE <table> SET <assignments> WHERE <condition>",
+      "DELETE FROM <table> WHERE <condition>"
+    ],
+    "<columns>": ["*", "<column_list>"],
+    "<column_list>": ["<id>", "<id>, <column_list>"],
+    "<table>": ["<id>"],
+    "<assignments>": ["<id> = <value>", "<id> = <value>, <assignments>"],
+    "<condition>": ["<id> = <value>"],
+    "<values>": ["<value>", "<value>, <values>"],
+    "<value>": ["<string>", "<int>"],
+    "<id>": ["a", "b", "c", "my_table", "my_column"],
+    "<string>": ["'value1'", "'value2'"],
+    "<int>": ["1", "2", "3"]
+  }

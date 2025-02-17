@@ -1,0 +1,5 @@
+<statement s>;
+<id x> = 5 ; 
+-> 
+<statement s2>;
+<id y> = 5 ;

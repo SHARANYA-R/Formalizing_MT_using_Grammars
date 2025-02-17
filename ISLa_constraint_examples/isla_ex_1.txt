@@ -1,0 +1,1 @@
+forall <statement> stmt in <start>: not (stmt.<expr> = <id>) . stmt.<right>

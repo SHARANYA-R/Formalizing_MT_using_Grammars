@@ -1,0 +1,3 @@
+for(<declaration d>; <paren_expr p>; a++) { <statement s>; }
+->
+for(<declaration d>;<paren_expr p>; a++) { <statement s>; }

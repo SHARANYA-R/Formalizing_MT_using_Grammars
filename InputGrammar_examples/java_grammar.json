@@ -1,0 +1,16 @@
+{
+    "<start>": ["<statements>"],
+    "<statements>": ["<statement><statements>", ""],
+    "<statement>": [
+        "<assignment>;",
+        "<ifelse>",
+        "<loop>"],
+    "<assignment>": ["<id> = <expression>"],
+    "<ifelse>": ["if (<condition>) { <statements> } else { <statements> }"],
+    "<loop>": ["for (<assignment>; <condition>; <id>++) { <statements> }"],
+    "<condition>": ["<id> <operator> <value>"],
+    "<expression>": ["<value>", "<id> + <value>", "<id> - <value>"],
+    "<operator>": ["<", ">", "==", "!=", "<=", ">="],
+    "<id>": ["x", "y", "z", "i", "j", "k"],
+    "<value>": ["1", "2", "3", "4"]
+}

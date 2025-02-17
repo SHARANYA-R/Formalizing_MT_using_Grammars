@@ -1,0 +1,4 @@
+<sql_stmt s>;
+SELECT * FROM <table t> WHERE <condition c> 
+-> 
+SELECT * FROM <table t> WHERE <condition c_alt>

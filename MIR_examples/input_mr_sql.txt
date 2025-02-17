@@ -1,0 +1,4 @@
+<sql_stmt s1>
+INSERT INTO <table t> (<columns c>) VALUES (<values v>)
+->
+INSERT INTO <table t> (<columns c>) VALUES (<values v>), (<values v1>)

@@ -1,0 +1,17 @@
+if(<paren_expr expr_i>) 
+{
+    <statement s1>;
+}
+else 
+{
+    <statement s2>;
+} 
+-> 
+if(!<paren_expr expr_i>)
+{
+    <statement s2>;
+}
+else 
+{
+    <statement s1>;
+}

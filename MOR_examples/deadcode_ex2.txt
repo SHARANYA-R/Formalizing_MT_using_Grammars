@@ -1,0 +1,3 @@
+<output o1>
+->
+<output o2>

@@ -1,0 +1,3 @@
+<statement stmt1> <statement stmt2> 
+-> 
+<statement stmt1> while(0) { print("Hello world") } <statement stmt2>

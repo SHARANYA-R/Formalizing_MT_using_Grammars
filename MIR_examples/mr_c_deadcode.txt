@@ -1,0 +1,4 @@
+<statement s1>;
+->
+if (0) { <statement s2>; }
+<statement s1>;

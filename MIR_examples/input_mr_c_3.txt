@@ -1,0 +1,3 @@
+<statement s> if (<id x>) <statement s>;;
+->
+<statement s>; if (<id x>) <statement s>;

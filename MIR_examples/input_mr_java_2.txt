@@ -1,0 +1,10 @@
+<statement s1>;
+print;
+<statement s2>;
+->
+
+
+                                                    <statement s2>;
+
+                <statement s1>;
+                        print;

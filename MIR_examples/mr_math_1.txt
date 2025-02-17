@@ -1,0 +1,6 @@
+<statement s>;
+<id a> = <id b> + <id c>;
+<id a> = (<id b> + <id c>) + <id d>;
+->
+<id a> = <id c> + <id b>;
+<id a> = <id b> + (<id c> + <id d>);

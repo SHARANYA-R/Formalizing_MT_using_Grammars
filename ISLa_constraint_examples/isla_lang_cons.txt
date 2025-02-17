@@ -1,0 +1,4 @@
+forall <rhs> in <assgn>:
+    exists <assgn> declaration:
+        (before(declaration, <assgn>) and
+            <rhs>.<var> = declaration.<lhs>.<var>)

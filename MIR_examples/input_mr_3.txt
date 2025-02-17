@@ -1,0 +1,9 @@
+<statement s1>;
+<statement s2>;
+->
+<statement s1>;
+if(<id i>) 
+{
+    <statement s3>;
+}
+<statement s2>;
