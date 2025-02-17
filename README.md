@@ -18,7 +18,7 @@ A grammar-based framework for automating and generalizing **Metamorphic Testing 
 ## Installation
 
 1. **Clone the Repository**:
-   ```bash
+```bash
    git clone git@github.com:SHARANYA-R/Formalizing_MT_using_Grammars.git
    cd Formalizing_MT_using_Grammars
 ```
